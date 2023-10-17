@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#nav-bar{
+    background-image: linear-gradient(to right,rgb(205, 42, 226),rgb(59, 5, 56));
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+color: whitesmoke !important;
+letter-spacing: 2px;
+}
+
+/* banner -- start */
+
+#banner
+{
+    background-image: linear-gradient(to right,rgb(205, 42, 226),rgb(59, 5, 56));
+    color: whitesmoke;
+
+}
+
+.promo-title
+{
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+.promo-content
+{
+    padding: 5% 0;
+}
+
+.play-btn
+{
+    width: 8%;
+    padding-top: 2%;
+}
+
+#hero
+{
+    background-image: linear-gradient(to right,rgb(205, 42, 226),rgb(59, 5, 56));
+}
+
+.img-fluid
+{
+    /* width: 70%; */
+    float: right;
+}
+
+/* ----------------services section  start -----------------*/
+
+#services
+{
+    padding-bottom: 2rem;
+}
+.service-img
+{
+    width: 40px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.col-md-4 h3{
+
+padding-bottom: 1rem;
+}
+
+.col-md-4 p{
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+
+.container h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(to right ,rgba(255, 102, 0, 0.61),rgb(80, 173, 177));
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+    padding-top: 3rem;
+}
+
+.service-btn
+{
+    border: none;
+    background-image: linear-gradient(to right ,rgb(187, 51, 187),rgb(71, 3, 92));
+    color: whitesmoke;
+    padding: 4px 20px;
+    border-radius: 50px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+
+}
+
+/* -----------------about us section--------------- */
+
+#aboutus
+{
+    padding-bottom: 3rem;
+    background-color: rgb(234, 242, 245);
+}
+
+.aboutus-img{
+    width: 100%;
+    padding-right: 5rem;
+}
+
+.aboutus-left
+{
+    padding-top: 4rem;
+}
+
+.aboutus-title
+{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.aboutus-left ul {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+/* --------------------------testimonials------------------------- */
+
+#testimonials
+{
+    /* padding-top: 5rem; */
+    background-color: rgb(240, 236, 231);
+    padding-top: 1rem;
+}
+
+.testimonial-title
+{
+padding-top: 2rem;
+padding-bottom: 3rem;
+}
+
+
+.testinonials
+{
+    border-left: 3px solid rgb(109, 6, 40);
+    text-align: justify;
+}
+.testinonials img{
+    border-radius: 50%;
+    width: 10%;
+float: left;
+}
+.user-details
+{
+    display: inline-block;
+    padding-left: 1.5rem;
+}
+
+.img-fluid
+{
+    padding-left: 0px;
+}
+
+/* ----------------- social media icon ----------------- */
+
+#social-media
+{
+    padding: 2rem 0;
+    /* padding-bottom: 5rem; */
+}
+
+#social-media p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.social-icon img{
+    width: 3.5rem;
+    transform: translateY(-10px);
+    padding-bottom: 3rem;
+}
+
+.social-icon a:hover
+{
+    transform: translateY(-10px);
+}
+
+/* --------------footer------------------ */
+
+#footer
+{
+    background-image: linear-gradient(to right,rgb(201, 99, 99),rgba(40, 40, 194, 0.651));
+}
+
+#footer img{
+    width: 40%;
+    margin-bottom: 2rem;
+    /* padding-top: 1rem; */
+    float: left;
+}
+
+.footer-box p 
+{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: whitesmoke;
+    float: left;
+}
+
+
+.fa-solid
+{
+    color:rgb(250, 236, 236);
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    height: 2rem;
+}
+
+.footer-box{
+    padding-top: 3rem;
+}
+
+.footer-box p{
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.footer button{
+    padding-left: 1rem;
+    margin-left: 13px;
+    margin-bottom: 28px;
+}
+
+.footer .btn
+{
+    margin-left: 15px;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.wave
+{
+    width: 100% !important;
+}
